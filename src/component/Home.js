@@ -130,6 +130,73 @@ function Home() {
                   <div className="sec1-box">
                     <div className="proxy-img">
                       <img
+                        src={require("../images/sec1-2.png")}
+                        className="img-fluid"
+                        alt="altImage"
+                      />
+                    </div>
+                    <div className="proxy-img1">
+                      <img
+                        src={require("../images/sec1-2-2.png")}
+                        className="img-fluid"
+                        alt="altImage"
+                      />
+                    </div>
+                    <div className="box-center-data">
+                      <div className="cup-flex">
+                        <div>
+                          <img
+                            src={require("../images/cup2.png")}
+                            className="cup-img img-fluid"
+                            alt="altImage"
+                          />
+                        </div>
+                        <div className="cup-data">
+                          <h6 className="box-head2">Boba</h6>
+                          <p className="box-head-info">Premium Residential</p>
+                          <p className="box-data">The sweetest servers with:</p>
+                        </div>
+                      </div>
+                      <ul className="text-left show med-ul">
+                        <li>30 Day Expiration </li>
+                        <li>Private Discord Access </li>
+                        <li>
+                          Speeds as low as 80ms on our Boba servers and
+                          100ms-180ms on local
+                        </li>
+                        <li>US and UK specific </li>
+                        <li>Unmatched success on all sites</li>
+                        <br />
+                      </ul>
+
+                      <div className="select-bg second ">
+                        <div className="select-list">
+                          <select className="sec1-drop">
+                            <option value>3 GB</option>
+                            <option value>5 GB</option>
+                            <option value>8 GB</option>
+                          </select>
+                        </div>
+                      </div>
+                      <a
+                        href="https://dashboard.taroproxies.com/dashboard"
+                        style={{ textDecoration: "none" }}
+                      >
+                        <div className="add-to-cart2">
+                          <i
+                            className="fa fa-shopping-cart"
+                            aria-hidden="true"
+                          ></i>{" "}
+                          Purchase
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-lg-4 col-md-6 mt-3">
+                  <div className="sec1-box">
+                    <div className="proxy-img">
+                      <img
                         src={require("../images/sec1-1.png")}
                         className="img-fluid"
                         alt="altImage"
@@ -152,7 +219,7 @@ function Home() {
                           />
                         </div>
                         <div className="cup-data">
-                          <div className="box-head1">Boba</div>
+                          <div className="box-head1">Taro Milk Tea</div>
                           <div className="box-head-info">Server</div>
                           <div className="box-data">
                             The sweetest servers with:
@@ -179,80 +246,22 @@ function Home() {
                           </select>
                         </div>
                       </div>
-
-                      <div className="add-to-cart1">
-                        <i
-                          className="fa fa-shopping-cart"
-                          aria-hidden="true"
-                        ></i>{" "}
-                        Purchase
-                      </div>
+                      <a
+                        href="https://dashboard.taroproxies.com/dashboard"
+                        style={{ textDecoration: "none" }}
+                      >
+                        <div className="add-to-cart1">
+                          <i
+                            className="fa fa-shopping-cart"
+                            aria-hidden="true"
+                          ></i>{" "}
+                          Purchase
+                        </div>
+                      </a>
                     </div>
                   </div>
                 </div>
-                <div className="col-lg-4 col-md-6 mt-3">
-                  <div className="sec1-box">
-                    <div className="proxy-img">
-                      <img
-                        src={require("../images/sec1-2.png")}
-                        className="img-fluid"
-                        alt="altImage"
-                      />
-                    </div>
-                    <div className="proxy-img1">
-                      <img
-                        src={require("../images/sec1-2-2.png")}
-                        className="img-fluid"
-                        alt="altImage"
-                      />
-                    </div>
-                    <div className="box-center-data">
-                      <div className="cup-flex">
-                        <div>
-                          <img
-                            src={require("../images/cup2.png")}
-                            className="cup-img img-fluid"
-                            alt="altImage"
-                          />
-                        </div>
-                        <div className="cup-data">
-                          <h6 className="box-head2">Taro Milk Tea</h6>
-                          <p className="box-head-info">Premium Residential</p>
-                          <p className="box-data">The sweetest servers with:</p>
-                        </div>
-                      </div>
-                      <ul className="text-left show med-ul">
-                        <li>30 Day Expiration </li>
-                        <li>Private Discord Access </li>
-                        <li>
-                          Speeds as low as 80ms on our Boba servers and
-                          100ms-180ms on local
-                        </li>
-                        <li>US and UK specific </li>
-                        <li>Unmatched success on all sites</li>
-                        <br />
-                      </ul>
 
-                      <div className="select-bg second ">
-                        <div className="select-list">
-                          <select className="sec1-drop">
-                            <option value>3 GB</option>
-                            <option value>5 GB</option>
-                            <option value>8 GB</option>
-                          </select>
-                        </div>
-                      </div>
-
-                      <div className="add-to-cart2">
-                        <i
-                          className="fa fa-shopping-cart"
-                          aria-hidden="true"
-                        ></i>{" "}
-                        Purchase
-                      </div>
-                    </div>
-                  </div>
-                </div>
                 <div className="col-lg-4 col-md-6 mt-3">
                   <div className="sec1-box">
                     <div className="proxy-img">

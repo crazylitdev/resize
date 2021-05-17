@@ -39,7 +39,7 @@ function Header() {
           <div
             className={
               showMobileNav
-                ? "navbar-collapse collapse show"
+                ? "navbar-collapse collapse show "
                 : "collapse navbar-collapse"
             }
             id="navbarSupportedContent"
@@ -72,7 +72,10 @@ function Header() {
               </li>
             </ul>
             <div className="my-2 my-lg-0">
-              <a className="nav-link" href="/#">
+              <a
+                className="nav-link"
+                href="https://dashboard.taroproxies.com/dashboard"
+              >
                 <span className="dash-btn">Dashboard</span>
               </a>
             </div>

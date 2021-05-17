@@ -48,11 +48,13 @@ function Footer() {
 
                 <div className="social">
                   <div className="w-20">
-                    <img
-                      src={require("../images/twiter.png")}
-                      className="img-fluid"
-                      alt="altImage"
-                    />
+                    <a href="https://twitter.com/taroproxies">
+                      <img
+                        src={require("../images/twiter.png")}
+                        className="img-fluid"
+                        alt="altImage"
+                      />
+                    </a>
                   </div>
                   <div className="w-20">
                     <img

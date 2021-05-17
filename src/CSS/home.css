@@ -180,12 +180,12 @@ html {
 }
 .section1 .three-box .sec1-box .box-center-data .box-head1 {
   font-size: 30px;
-  color: #fdc7aa;
+  color: #9e8ef2;
   font-family: "inter-b";
 }
 .section1 .three-box .sec1-box .box-center-data .box-head2 {
   font-size: 30px;
-  color: #9e8ef2;
+  color: #fdc7aa;
   font-family: "inter-b";
 }
 .section1 .three-box .sec1-box .box-center-data .box-head3 {
@@ -217,7 +217,7 @@ html {
 }
 
 .section1 .three-box .sec1-box .add-to-cart1 {
-  background-color: #ffc8a9;
+  background-color: #9785ec;
   width: 100%;
   color: #fff;
   border: none;
@@ -229,7 +229,7 @@ html {
   transition: 0.5s all ease-in-out;
 }
 .section1 .three-box .sec1-box .add-to-cart2 {
-  background-color: #9785ec;
+  background-color: #ffc8a9;
   width: 100%;
   color: #fff;
   border: none;
@@ -691,7 +691,7 @@ ul.text-left li::before {
 
 @media screen and (max-width: 430px) {
   .navbar-brand {
-    width: 30%;
+    width: 50%;
   }
   .mt-405 {
     margin-top: 0px !important;
@@ -803,11 +803,12 @@ ul.text-left li::before {
   .proxies {
     font-size: 12px;
   }
+}
+@media (max-width: 280px) {
   .sec1-box {
     width: 280px;
   }
 }
-
 .react-multi-carousel-dot button {
   background-color: #212c4b !important;
   border-color: #212c4b !important;
